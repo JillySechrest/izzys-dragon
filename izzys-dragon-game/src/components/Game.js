@@ -14,7 +14,7 @@ const OBSTACLE_SPAWN_RATE = 2000; // milliseconds
 const INITIAL_OBSTACLE_SPEED = 3;
 const SPEED_INCREASE_INTERVAL = 5000; // milliseconds
 const SPEED_INCREASE_AMOUNT = 0.5;
-const WIN_SCORE = 3; // Updated win condition to 3
+const WIN_SCORE = 15; 
 
 function Game() {
   const [dragonPosition, setDragonPosition] = useState(GAME_HEIGHT / 2);
