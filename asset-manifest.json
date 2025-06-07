@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/izzys-dragon/static/css/main.8f96ba32.css",
-    "main.js": "/izzys-dragon/static/js/main.dad19ff2.js",
-    "static/js/453.f00601f6.chunk.js": "/izzys-dragon/static/js/453.f00601f6.chunk.js",
-    "index.html": "/izzys-dragon/index.html",
-    "main.8f96ba32.css.map": "/izzys-dragon/static/css/main.8f96ba32.css.map",
-    "main.dad19ff2.js.map": "/izzys-dragon/static/js/main.dad19ff2.js.map",
-    "453.f00601f6.chunk.js.map": "/izzys-dragon/static/js/453.f00601f6.chunk.js.map"
+    "main.css": "/izzys-dragon-game/static/css/main.553aadd4.css",
+    "main.js": "/izzys-dragon-game/static/js/main.35fbbe46.js",
+    "static/js/453.f00601f6.chunk.js": "/izzys-dragon-game/static/js/453.f00601f6.chunk.js",
+    "index.html": "/izzys-dragon-game/index.html",
+    "main.553aadd4.css.map": "/izzys-dragon-game/static/css/main.553aadd4.css.map",
+    "main.35fbbe46.js.map": "/izzys-dragon-game/static/js/main.35fbbe46.js.map",
+    "453.f00601f6.chunk.js.map": "/izzys-dragon-game/static/js/453.f00601f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f96ba32.css",
-    "static/js/main.dad19ff2.js"
+    "static/css/main.553aadd4.css",
+    "static/js/main.35fbbe46.js"
   ]
 }
