@@ -1,8 +1,8 @@
 {
-  "name": "izzys-dragon-game",
+  "name": "izzys-dragon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JillySechrest.github.io/izzys-dragon-game/",
+  "homepage": "https://JillySechrest.github.io/izzys-dragon/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
