@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 
 // Represents a single obstacle
 const Obstacle = ({ x, y, width, height, type }) => {
@@ -11,15 +11,30 @@ const Obstacle = ({ x, y, width, height, type }) => {
   };
 
   const imageStyle = {
-    width: '100%',
-    height: '100%',
+    width: '170%',
+    height: '170%',
     imageRendering: 'pixelated',
   };
 
-  // Determine image source based on type
-  const imageUrl = type === 'kitty' 
-    ? `${process.env.PUBLIC_URL}/assets/one eyed kitty-1.png` 
-    : `${process.env.PUBLIC_URL}/assets/mountains-1.png`;
+  const imageUrl = useMemo(() => {
+    const obstacleImageFiles = [
+      'one eyed kitty-1.png', 
+      'mountains-1.png', 
+      'poisey.png', 
+      'schneke.png', 
+      'creeper.png', 
+      'grassblock-dino.png', 
+      'banan-yuh.png',
+      'ghast.png',
+      'enderman.png',
+      'enderdragon.png',
+      'foxy.png',
+      'coiled-snek.png'
+    ];
+
+    const randomImageFile = obstacleImageFiles[Math.floor(Math.random() * obstacleImageFiles.length)];
+    return `${process.env.PUBLIC_URL}/assets/${randomImageFile}`;
+  }, []); // Empty dependency array ensures this runs only once per component instance
 
   return (
     <div style={obstacleStyle} className="obstacle">

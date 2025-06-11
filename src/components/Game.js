@@ -7,15 +7,15 @@ import Swal from 'sweetalert2'; // Import SweetAlert2
 const GAME_WIDTH = 800;
 const GAME_HEIGHT = 600;
 const DRAGON_SIZE = 100; // Increased from 70
-const OBSTACLE_WIDTH = 50;
-const OBSTACLE_HEIGHT = 50; // Added constant for obstacle height
+const OBSTACLE_WIDTH = 40;
+const OBSTACLE_HEIGHT = 40; // Added constant for obstacle height
 const GRAVITY = 0.7;
 const FLAP_STRENGTH = 12;
 const OBSTACLE_SPAWN_RATE = 2000; // milliseconds
 const INITIAL_OBSTACLE_SPEED = 3;
 const SPEED_INCREASE_INTERVAL = 5000; // milliseconds
 const SPEED_INCREASE_AMOUNT = 0.5;
-const WIN_SCORE = 15; 
+const WIN_SCORE = 20; 
 
 function Game() {
   const [dragonPosition, setDragonPosition] = useState(GAME_HEIGHT / 2);
