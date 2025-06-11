@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/izzys-dragon/static/css/main.553aadd4.css",
-    "main.js": "/izzys-dragon/static/js/main.411eacd4.js",
+    "main.js": "/izzys-dragon/static/js/main.4143c034.js",
     "static/js/453.b9445a81.chunk.js": "/izzys-dragon/static/js/453.b9445a81.chunk.js",
     "index.html": "/izzys-dragon/index.html",
     "main.553aadd4.css.map": "/izzys-dragon/static/css/main.553aadd4.css.map",
-    "main.411eacd4.js.map": "/izzys-dragon/static/js/main.411eacd4.js.map",
+    "main.4143c034.js.map": "/izzys-dragon/static/js/main.4143c034.js.map",
     "453.b9445a81.chunk.js.map": "/izzys-dragon/static/js/453.b9445a81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.553aadd4.css",
-    "static/js/main.411eacd4.js"
+    "static/js/main.4143c034.js"
   ]
 }
